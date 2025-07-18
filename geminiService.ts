@@ -1,6 +1,6 @@
 
 import { GoogleGenAI, Type } from "@google/genai";
-import type { DashboardData, Deal, TranscriptAnalysisResult } from '../types';
+import type { DashboardData, Deal, TranscriptAnalysisResult } from './types';
 
 // Support both GEMINI_API_KEY (documented in README) and legacy API_KEY
 const apiKey = process.env.GEMINI_API_KEY || process.env.API_KEY;

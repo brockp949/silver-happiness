@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import type { UpdateSuggestion, CreationSuggestion } from '../types';
+import type { UpdateSuggestion, CreationSuggestion } from './types';
 
 interface SuggestionCardProps {
     suggestion: UpdateSuggestion | CreationSuggestion;

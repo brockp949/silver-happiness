@@ -1,5 +1,5 @@
 import React from 'react';
-import type { Deal } from '../types';
+import type { Deal } from './types';
 
 interface DealRowProps extends Deal {
     onClick: () => void;
