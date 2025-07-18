@@ -1,5 +1,5 @@
 import React from 'react';
-import type { Deal, CsvRow } from '../types';
+import type { Deal, CsvRow } from './types';
 
 interface DealDetailViewProps {
   deal: Deal;

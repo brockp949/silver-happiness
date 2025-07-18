@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import type { CsvRow } from '../types';
+import type { CsvRow } from './types';
 
 interface DataTableProps {
   data: CsvRow[];

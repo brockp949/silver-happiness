@@ -1,6 +1,6 @@
 
 import React, { useState, useCallback } from 'react';
-import type { TranscriptAnalysisResult, UpdateSuggestion, CreationSuggestion } from '../types';
+import type { TranscriptAnalysisResult, UpdateSuggestion, CreationSuggestion } from './types';
 import TranscriptAnalysisDisplay from './TranscriptAnalysisDisplay';
 import * as pdfjs from 'pdfjs-dist/build/pdf.mjs';
 import mammoth from 'mammoth';
