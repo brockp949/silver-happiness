@@ -1,0 +1,6 @@
+{
+  "name": "Vtiger CSV AI Dashboard",
+  "description": "An AI-powered tool to analyze and visualize Vtiger CSV exports, generating an interactive dashboard with key insights and charts.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
