@@ -1,6 +1,6 @@
 
 import React, { useState, useMemo, useEffect } from 'react';
-import type { Deal, CsvRow } from '../types';
+import type { Deal, CsvRow } from './types';
 import DealCard from './DealCard';
 import DealCardCompact from './DealCardCompact';
 import DealRow from './DealRow';

@@ -1,6 +1,6 @@
 import React, { useCallback, useState } from 'react';
 import Papa, { type ParseResult, type ParseError } from 'papaparse';
-import type { CsvRow } from '../types';
+import type { CsvRow } from './types';
 
 interface FileUploadProps {
   onFileProcessed: (csvString: string, data: CsvRow[], fileName: string) => void;

@@ -1,6 +1,6 @@
 
 import React from 'react';
-import type { TranscriptAnalysisResult, UpdateSuggestion, CreationSuggestion } from '../types';
+import type { TranscriptAnalysisResult, UpdateSuggestion, CreationSuggestion } from './types';
 import SuggestionsView from './SuggestionsView';
 import MeetingAnalysisCard from './MeetingAnalysisCard';
 

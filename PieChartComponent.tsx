@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer } from 'recharts';
-import type { ChartDataItem } from '../types';
+import type { ChartDataItem } from './types';
 
 interface PieChartProps {
   title: string;

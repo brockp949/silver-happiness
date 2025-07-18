@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import type { MeetingAnalysis } from '../types';
+import type { MeetingAnalysis } from './types';
 
 interface MeetingAnalysisCardProps {
     meeting: MeetingAnalysis;
