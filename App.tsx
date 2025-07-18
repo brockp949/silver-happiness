@@ -1,15 +1,15 @@
 
 import React, { useState, useCallback } from 'react';
-import { analyzeVtigerData, analyzeTranscripts } from './services/geminiService';
+import { analyzeVtigerData, analyzeTranscripts } from './geminiService';
 import type { DashboardData, CsvRow, Deal, TranscriptAnalysisResult, UpdateSuggestion, CreationSuggestion } from './types';
-import Header from './components/Header';
-import FileUpload from './components/FileUpload';
-import Dashboard from './components/Dashboard';
-import AnalysisProgress from './components/AnalysisProgress';
-import Welcome from './components/Welcome';
-import DealsView from './components/DealsView';
-import DataTable from './components/DataTable';
-import TranscriptAnalyzer from './components/TranscriptAnalyzer';
+import Header from './Header';
+import FileUpload from './FileUpload';
+import Dashboard from './Dashboard';
+import AnalysisProgress from './AnalysisProgress';
+import Welcome from './Welcome';
+import DealsView from './DealsView';
+import DataTable from './DataTable';
+import TranscriptAnalyzer from './TranscriptAnalyzer';
 
 type ActiveTab = 'Deals' | 'Overview' | 'Data' | 'AI Assistant';
 

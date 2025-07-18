@@ -2,11 +2,13 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import type { DashboardData, Deal, TranscriptAnalysisResult } from '../types';
 
-if (!process.env.API_KEY) {
-    throw new Error("API_KEY environment variable is not set.");
+// Support both GEMINI_API_KEY (documented in README) and legacy API_KEY
+const apiKey = process.env.GEMINI_API_KEY || process.env.API_KEY;
+if (!apiKey) {
+    throw new Error("GEMINI_API_KEY environment variable is not set.");
 }
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({ apiKey });
 const MAX_INPUT_CHARS = 2_000_000; // ~2MB limit for input to be safe
 
 // Define a more specific type for the parameters we pass to the retry helper
