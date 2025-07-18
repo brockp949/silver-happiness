@@ -1,6 +1,6 @@
 
 import React from 'react';
-import type { UpdateSuggestion, CreationSuggestion } from '../types';
+import type { UpdateSuggestion, CreationSuggestion } from './types';
 import SuggestionCard from './SuggestionCard';
 
 interface SuggestionsViewProps {

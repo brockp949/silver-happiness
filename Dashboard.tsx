@@ -1,7 +1,7 @@
 
 
 import React from 'react';
-import type { DashboardData, Chart as ChartType } from '../types';
+import type { DashboardData, Chart as ChartType } from './types';
 import KpiCard from './KpiCard';
 import BarChartComponent from './BarChartComponent';
 import PieChartComponent from './PieChartComponent';

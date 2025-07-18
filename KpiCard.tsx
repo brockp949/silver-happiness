@@ -1,6 +1,6 @@
 
 import React from 'react';
-import type { Kpi } from '../types';
+import type { Kpi } from './types';
 
 const KpiCard: React.FC<Kpi> = ({ title, value, insight }) => {
   return (
